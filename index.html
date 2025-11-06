@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/eb7d1b12a6.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./j.css">
+    <title>shopnow</title>
+</head>
+
+<body class="overflow-x-hidden">
+
+    <div class="fixed top-10 left-6 z-50 animate-bounce md:top-20 md:left-8">
+        <img src="https://d28f6bwbk08mtp.cloudfront.net/Public/cartsee/formImage/222fe9fc27d988ed389d0e7a29102f3c.gif"
+            alt="Special offer animation" class="w-[40px] h-16 object-cover md:w-[50px] md:h-20">
+    </div>
+
+
+    <header class="w-full">
+        <nav class="bg-white text-black w-full border-b">
+            <div class="bg-gray-900 text-white flex flex-col sm:flex-row sm:justify-between items-center px-4">
+                <div class="overflow-hidden whitespace-nowrap w-full sm:w-auto text-center mb-2 sm:mb-0">
+                    <div class="inline-block animate-marquee">
+                        <span class="mx-4 text-xs">use code FMJR for Exclusive savings! Fall in love with Autumn /
+                            Winter style!</span>
+                        <span class="mx-4 text-xs">use code FMJR for Exclusive savings! Fall in love with Autumn /
+                            Winter style!</span>
+                        <span class="mx-4 text-xs">use code FMJR for Exclusive savings! Fall in love with Autumn /
+                            Winter style!</span>
+                    </div>
+                </div>
+                <ul class="flex  justify-center sm:justify-end space-x-3 text-white text-sm">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-snapchat"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li class="bg-white text-black px-2 border rounded text-xs sm:text-sm">
+                        <a href="#">English</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex items-center justify-between px-4 py-3 md:px-10">
+                <h3 class="font-bold text-3xl md:text-4xl">uoo<span class="font-light">zee</span></h3>
+
+                <div class="hidden md:flex items-center bg-gray-100 rounded px-2 w-[250px]">
+                    <input type="text" placeholder="Search"
+                        class="bg-gray-100 rounded text-black py-1 px-2 w-full focus:outline-none">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+
+                <div class="flex items-center space-x-4">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="#"><i class="fas fa-bell"></i></a>
+
+                    <button id="menu-btn" class="block md:hidden focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+
+            <hr class="border border-gray-200 my-2 hidden md:block">
+
+            <ul class="hidden md:flex justify-center space-x-6 px-4 items-center text-sm font-medium">
+                <li class="flex items-center space-x-2 list-none">
+                    <a href="#" class="hover:underline">New In</a>
+                    <p class="bg-gray-400 text-white text-xs rounded px-1">100+ WEEKLY!</p>
+                </li>
+
+                <li class="relative group list-none">
+                    <div class="flex items-center cursor-pointer">
+                        <a href="#" class="hover:underline">Shop your vibe</a>
+                        <i
+                            class="fa-solid fa-angle-down ml-2 transition-transform duration-300 group-hover:rotate-180"></i>
+                    </div>
+                    <div
+                        class="fixed left-0 top-[100px] hidden group-hover:flex bg-white w-screen justify-center gap-6 px-4 md:px-8 py-6 z-50 flex-wrap md:flex-nowrap transition-all duration-500 ease-in-out">
+
+                        <div
+                            class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300 ease-in-out text-center md:text-left">
+                            <img src="https://www.uoozee.com/cdn/shop/files/e8c8b1abc4a5a761a30197d31b25abc5.png?v=1750128240&width=670"
+                                alt="EASYGLOW"
+                                class="h-[130px] md:h-[150px] w-full object-cover rounded-md shadow-sm hover:shadow-md transition-all duration-300">
+                            <p class="text-base font-semibold mt-2">EASYGLOW</p>
+                            <p class="text-sm text-gray-600 mt-1 leading-relaxed">
+                                Soft, casual elegance designed for your everyday lifestyle. From cozy layers to light
+                                fabrics,
+                                each piece radiates calm confidence and modern femininity — effortless, glowing, and
+                                graceful.
+                            </p>
+                        </div>
+
+                        <div
+                            class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300 ease-in-out text-center md:text-left">
+                            <img src="https://www.uoozee.com/cdn/shop/files/STEADY_VIBE.jpg?v=1749985813&width=670"
+                                alt="STEADY VIBE"
+                                class="h-[130px] md:h-[150px] w-full object-cover rounded-md shadow-sm hover:shadow-md transition-all duration-300">
+                            <p class="text-base font-semibold mt-2">STEADY VIBE</p>
+                            <p class="text-sm text-gray-600 mt-1 leading-relaxed">
+                                Effortless street style meets confidence. Bold shapes and chill comfort fuse together
+                                — a fashion language that’s free, expressive, and made to move with your daily rhythm.
+                            </p>
+                        </div>
+
+                        <div
+                            class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300 ease-in-out text-center md:text-left">
+                            <img src="https://i.pinimg.com/1200x/14/1b/80/141b80178f6a3d64bbad42aaec1a0fc9.jpg"
+                                alt="MODERN CHIC"
+                                class="h-[130px] md:h-[150px] w-full object-cover rounded-md shadow-sm hover:shadow-md transition-all duration-300">
+                            <p class="text-base font-semibold mt-2">MODERN CHIC</p>
+                            <p class="text-sm text-gray-600 mt-1 leading-relaxed">
+                                Clean lines and subtle details define this look. For women who love balance between
+                                luxury
+                                and simplicity — timeless elegance meets the edge of urban style.
+                            </p>
+                        </div>
+
+                        <div
+                            class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300 ease-in-out text-center md:text-left">
+                            <img src="https://i.pinimg.com/736x/b2/7c/80/b27c80691b2648e4e0c4ce23b023b33f.jpg"
+                                alt="URBAN EDGE"
+                                class="h-[130px] md:h-[150px] w-full object-cover rounded-md shadow-sm hover:shadow-md transition-all duration-300">
+                            <p class="text-base font-semibold mt-2">URBAN EDGE</p>
+                            <p class="text-sm text-gray-600 mt-1 leading-relaxed">
+                                Sharp, confident, and built for the city. Think structured silhouettes, denim layers,
+                                and bold accessories that scream modern independence and strength.
+                            </p>
+                        </div>
+                        <div
+                            class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300 ease-in-out text-center md:text-left">
+                            <img src="https://i.pinimg.com/1200x/22/9d/09/229d0911c64abb8f53f0aa6c3d32fc27.jpg"
+                                alt="CLASSY COMFORT"
+                                class="h-[130px] md:h-[150px] w-full object-cover rounded-md shadow-sm hover:shadow-md transition-all duration-300">
+                            <p class="text-base font-semibold mt-2">CLASSY COMFORT</p>
+                            <p class="text-sm text-gray-600 mt-1 leading-relaxed">
+                                The perfect blend of comfort and refinement. Neutral palettes, soft textures, and
+                                effortless silhouettes — crafted for relaxed sophistication all day long.
+                            </p>
+                        </div>
+                        <div
+                            class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300 ease-in-out text-center md:text-left">
+                            <img src="https://i.pinimg.com/736x/04/11/51/041151711cc50ff4534acebfd799393b.jpg"
+                                alt="BLOOM MOOD"
+                                class="h-[130px] md:h-[150px] w-full object-cover rounded-md shadow-sm hover:shadow-md transition-all duration-300">
+                            <p class="text-base font-semibold mt-2">BLOOM MOOD</p>
+                            <p class="text-sm text-gray-600 mt-1 leading-relaxed">
+                                Fresh, feminine, and full of life. A celebration of color and flow — where soft floral
+                                prints,
+                                flowing fabrics, and playful charm meet every sunshine moment.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="relative group list-none">
+                    <div class="flex items-center cursor-pointer">
+                        <a href="#" class="hover:underline">Best Sellers</a>
+                        <i
+                            class="fa-solid fa-angle-down ml-2 transition-transform duration-300 group-hover:rotate-180"></i>
+                    </div>
+
+                    <div
+                        class="fixed left-0 top-[100px] hidden group-hover:flex bg-white w-screen justify-center gap-6 px-4 md:px-8 py-6 z-50 flex-wrap md:flex-nowrap transition-all duration-500 ease-in-out">
+
+                        <div
+                            class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300 text-center md:text-left">
+                            <img src="https://www.uoozee.com/cdn/shop/files/STEADY_VIBE.jpg?v=1749985813&width=670"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Hot Picks</p>
+                            <p class="text-sm text-gray-600">Top trending outfits of the week, styled by our editors.
+                            </p>
+                        </div>
+
+                        <div
+                            class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300 text-center md:text-left">
+                            <img src="https://www.uoozee.com/cdn/shop/files/e8c8b1abc4a5a761a30197d31b25abc5.png?v=1750128240&width=670"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Everyday Chic</p>
+                            <p class="text-sm text-gray-600">Effortless looks that blend comfort and confidence.</p>
+                        </div>
+
+                        <div
+                            class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300 text-center md:text-left">
+                            <img src="https://www.uoozee.com/cdn/shop/files/7fe90cb6-73e6-4cee-bb34-2583464e92bd.jpg?v=1753068181&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Cozy Vibes</p>
+                            <p class="text-sm text-gray-600">Soft fabrics and warm tones for your off-duty moments.</p>
+                        </div>
+
+                        <div
+                            class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300 text-center md:text-left">
+                            <img src="https://www.uoozee.com/cdn/shop/files/114bfe356a22456a89d23e280b975242.jpg?v=1748314610&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Elegant Nights</p>
+                            <p class="text-sm text-gray-600">Shimmer and sophistication for unforgettable evenings.</p>
+                        </div>
+
+                        <div
+                            class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300 text-center md:text-left">
+                            <img src="https://www.uoozee.com/cdn/shop/files/a2e5eee11afc4ba74221d24d9f075b05.jpg?v=1750753695&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Minimal Mood</p>
+                            <p class="text-sm text-gray-600">Clean lines and neutral tones for timeless elegance.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="relative group list-none">
+                    <div class="flex items-center cursor-pointer">
+                        <a href="#" class="hover:underline">Clothing</a>
+                        <i
+                            class="fa-solid fa-angle-down ml-2 transition-transform duration-300 group-hover:rotate-180"></i>
+                    </div>
+
+                    <div
+                        class="fixed left-0 top-[100px] hidden group-hover:flex bg-white w-screen justify-center gap-6 px-4 md:px-8 py-6 z-50 flex-wrap md:flex-nowrap transition-all duration-500 ease-in-out">
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/cbc81f584e6297104dbe5502b96866e6.jpg?v=1748357078&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Tops</p>
+                            <p class="text-sm text-gray-600">Effortlessly chic tops to elevate your everyday style.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/d4e3a433-1fc0-4d67-8fc7-95a04236c91e.jpg?v=1750042293&width=960"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Pants</p>
+                            <p class="text-sm text-gray-600">Tailored, wide-leg, or denim — redefine comfort.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/92701189-aa28-440b-8d2a-1b798bc19e2f.jpg?v=1753758585&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Jumpsuits</p>
+                            <p class="text-sm text-gray-600">All-in-one outfits that mix ease with elegance.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/114bfe356a22456a89d23e280b975242.jpg?v=1748314610&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Outerwear</p>
+                            <p class="text-sm text-gray-600">Stay warm in stylish jackets and trench coats.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/a2e5eee11afc4ba74221d24d9f075b05.jpg?v=1750753695&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Sets</p>
+                            <p class="text-sm text-gray-600">Perfectly matched top and bottom sets for easy styling.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="relative group list-none">
+                    <div class="flex items-center cursor-pointer">
+                        <a href="#" class="hover:underline">Dresses</a>
+                        <i
+                            class="fa-solid fa-angle-down ml-2 transition-transform duration-300 group-hover:rotate-180"></i>
+                    </div>
+
+                    <div
+                        class="fixed left-0 top-[100px] hidden group-hover:flex bg-white w-screen justify-center gap-6 px-4 md:px-8 py-6 z-50 flex-wrap md:flex-nowrap transition-all duration-500 ease-in-out">
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/92701189-aa28-440b-8d2a-1b798bc19e2f.jpg?v=1753758585&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Casual</p>
+                            <p class="text-sm text-gray-600">Soft silhouettes for daily comfort and charm.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/114bfe356a22456a89d23e280b975242.jpg?v=1748314610&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Party</p>
+                            <p class="text-sm text-gray-600">Glam up your nights with stunning evening fits.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/7fe90cb6-73e6-4cee-bb34-2583464e92bd.jpg?v=1753068181&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Maxi</p>
+                            <p class="text-sm text-gray-600">Flowy and elegant — perfect for breezy days.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/e8c8b1abc4a5a761a30197d31b25abc5.png?v=1750128240&width=670"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Mini</p>
+                            <p class="text-sm text-gray-600">Flirty styles that show off your bold energy.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/cbc81f584e6297104dbe5502b96866e6.jpg?v=1748357078&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Evening</p>
+                            <p class="text-sm text-gray-600">Luxurious fabrics and captivating silhouettes.</p>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="relative group list-none">
+                    <div class="flex items-center cursor-pointer">
+                        <a href="#" class="hover:underline">Accessories | Shoes</a>
+                        <i
+                            class="fa-solid fa-angle-down ml-2 transition-transform duration-300 group-hover:rotate-180"></i>
+                    </div>
+
+                    <div
+                        class="fixed left-0 top-[100px] hidden group-hover:flex bg-white w-screen justify-center gap-6 px-4 md:px-8 py-6 z-50 flex-wrap md:flex-nowrap transition-all duration-500 ease-in-out">
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://i.pinimg.com/1200x/5b/2f/01/5b2f016854f90bb89c30ae7c1c5f6be3.jpg"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Sneakers</p>
+                            <p class="text-sm text-gray-600">Casual kicks built for comfort and statement style.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://i.pinimg.com/1200x/3f/61/b0/3f61b011041b951e11324fd83de27e80.jpg"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Heels</p>
+                            <p class="text-sm text-gray-600">Strut confidently in heels that lift every outfit.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://i.pinimg.com/736x/19/75/e3/1975e387737bc7ef3da0336c18c2acb6.jpg"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Bags</p>
+                            <p class="text-sm text-gray-600">From mini totes to chic crossbodies — carry your vibe.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://i.pinimg.com/1200x/5a/7f/24/5a7f2420ee0c1fe5aa4036eaf0a082c9.jpg"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Jewelry</p>
+                            <p class="text-sm text-gray-600">Add sparkle to your outfit with timeless accessories.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://i.pinimg.com/736x/05/ae/8a/05ae8a3d7d96e176b7de52b103edbaeb.jpg"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2">Sunglasses</p>
+                            <p class="text-sm text-gray-600">Complete your look with chic eyewear trends.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="relative group list-none">
+                    <div class="flex items-center cursor-pointer">
+                        <a href="#" class="hover:underline text-red-600">Sale</a>
+                        <i
+                            class="fa-solid fa-angle-down ml-2 transition-transform duration-300 group-hover:rotate-180 text-red-600"></i>
+                    </div>
+
+                    <div
+                        class="fixed left-0 top-[100px] hidden group-hover:flex bg-white w-screen justify-center gap-6 px-4 md:px-8 py-6 z-50 flex-wrap md:flex-nowrap transition-all duration-500 ease-in-out">
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/92701189-aa28-440b-8d2a-1b798bc19e2f.jpg?v=1753758585&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2 text-red-600">Clearance</p>
+                            <p class="text-sm text-gray-600">Last chance! Final markdowns before they’re gone.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/e8c8b1abc4a5a761a30197d31b25abc5.png?v=1750128240&width=670"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2 text-red-600">Seasonal Sale</p>
+                            <p class="text-sm text-gray-600">Hot deals on Autumn & Winter collections.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/cbc81f584e6297104dbe5502b96866e6.jpg?v=1748357078&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2 text-red-600">Flash Deals</p>
+                            <p class="text-sm text-gray-600">Limited-time drops you can’t afford to miss.</p>
+                        </div>
+
+                        <div class="w-[180px] md:w-[200px] hover:scale-105 transition-transform duration-300">
+                            <img src="https://www.uoozee.com/cdn/shop/files/7fe90cb6-73e6-4cee-bb34-2583464e92bd.jpg?v=1753068181&width=1280"
+                                class="h-[130px] md:h-[150px] w-full rounded-md shadow-md">
+                            <p class="font-semibold mt-2 text-red-600">Last Chance</p>
+                            <p class="text-sm text-gray-600">Don’t miss out on these final markdowns.</p>
+                        </div>
+            </ul>
+
+            <div id="mobile-menu" class="hidden md:hidden flex-col bg-gray-100 text-black space-y-2 px-6 py-4 border-t">
+                <a href="#" class="hover:underline">New In</a>
+                <a href="#" class="hover:underline">Shop your vibe</a>
+                <a href="#" class="hover:underline">Best Sellers</a>
+                <a href="#" class="hover:underline">Clothing</a>
+                <a href="#" class="hover:underline">Dresses</a>
+                <a href="#" class="hover:underline">Accessories | Shoes</a>
+                <a href="#" class="hover:underline text-red-600">Sale</a>
+
+                <div class="flex items-center bg-white border rounded px-2 mt-2">
+                    <input type="text" placeholder="Search..."
+                        class="w-full bg-transparent py-1 px-2 focus:outline-none text-sm">
+                    <i class="fas fa-search text-gray-500"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="relative ">
+            <img src="https://www.uoozee.com/cdn/shop/files/hero_banner.png?v=1747401174&width=1920" alt="image"
+                class="w-full h-[40em] object-cover">
+
+
+            <div class="absolute  inset-0 flex flex-col items-center justify-center text-white text-center">
+                <p class="bg-gray-100 inline-block px-2 py-1 text-black ">100+ NEW ARRIVALS WEEKLY</p>
+                <h1 class="text-4xl font-bold mt-4">Autumn / Winter 2025</h1>
+                <div class="flex space-x-4 mt-10">
+                    <a href="#" class="bg-white text-black px-4 py-2 rounded">SHOP ALL</a>
+                    <a href="#" class="bg-white text-black px-4 py-2 rounded">SHOP DRESSES</a>
+                </div>
+            </div>
+        </div>
+        <div class=" flex justify-center items-center space-x-4 bg-black text-white py-4 px-2 gap-4">
+            <h1 class="text-center">mega clearance - Buy 5 Get 1 Free,
+                buy 10 and get 3 free! limited time only</h1>
+            <i class="fas fa-bell"></i>
+            <a href="#" class=" text-white px-4 py-2  underline">shop Now</a>
+        </div>
+        <div>
+            <div class=" flex justify-center space-x-4  text-black mt-20 px-2 gap-4">
+                <h2>TRENDING NOW</h2>
+            </div>
+            <div class="flex justify-center items-center space-x-2  text-black py-4 px-2 gap-4 ">
+                <ul class="flex gap-5 ">
+                    <li><a class="hover:underline" href="#">BEST SELLERS</a></li>
+                    <li><a class="hover:underline" href="#">TOPS</a></li>
+                    <li><a class="hover:underline" href="#">DRESSES</a></li>
+                    <li><a class="hover:underline" href="#">BOTTOMS</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="cloth" class="flex  scroll-hide space-x-4 mb-10 px-2">
+        </div>
+        <div class="flex justify-center" id="bestseller">
+            <a href="#"
+                class="flex justify-center items-center bg-gray-800 text-white w-[200px] px-10 py-2 mt-10 rounded">
+                BEST SELLERS
+            </a>
+        </div>
+        <div class=" flex justify-center space-x-4  text-5xl text-black mt-15 mb-10 px-2 gap-4 my-2">
+            <h2>SHOP BY CATEGORIES</h2>
+        </div>
+
+
+        <div class="flex scroll-hide overflow-y-hidden space-x-4 mx-2 my-2">
+
+            <div class="flex-shrink-0 space-y-8 bg-gray-100 px-3">
+                <h1 class="mt-10 text-3xl text-center">DRESSES</h1>
+                <img src="https://www.uoozee.com/cdn/shop/files/73e8021103ea2e519389b4e64c426e20_bcec4b0a-375d-4961-ab0d-aef5a332bce7.png?v=1749374675&width=407"
+                    alt="image" class="h-[330px] w-[270px] object-contain">
+                <div class="space-y-4 py-2 text-center">
+                    <p>skylish H-line solid color</p>
+                    <a href="#" class="  text-white px-4 bg-blue-700 py-2">shop Now</a>
+                </div>
+            </div>
+            <div class="flex-shrink-0 space-y-8 bg-gray-100 px-3">
+                <h1 class="mt-10 text-3xl text-center">TOPS</h1>
+                <img src="https://www.uoozee.com/cdn/shop/files/1368c0fe7d721f2c6138f9dcd8211c59.png?v=1749697883&width=407"
+                    alt="image" class="h-[330px] w-[270px] object-contain">
+                <div class="space-y-4 py-2 text-center">
+                    <p>skylish H-line solid color</p>
+                    <a href="#" class=" text-white px-4 py-2  bg-blue-700 ">shop Now</a>
+                </div>
+            </div>
+            <div class="flex-shrink-0 space-y-8 bg-gray-100 px-3">
+                <h1 class="mt-10 text-3xl text-center">BOTTOMS</h1>
+                <img src="https://www.uoozee.com/cdn/shop/files/0d4e2656a909f254eb6c17c1042677db.png?v=1749523778&width=407"
+                    alt="image" class="h-[330px] w-[270px] object-contain">
+                <div class="space-y-4 py-2 text-center">
+                    <p>skylish H-line solid color</p>
+                    <a href="#" class=" text-white px-4 py-2 bg-blue-700 ">shop Now</a>
+                </div>
+            </div>
+            <div class="flex-shrink-0 space-y-8 bg-gray-100 px-3">
+                <h1 class="mt-10 text-3xl text-center">ACCS</h1>
+                <img src="https://www.uoozee.com/cdn/shop/files/4103cb5e4b4c19f1fb3868501c453d3f.png?v=1749697645&width=407"
+                    alt="image" class="h-[330px] w-[270px] object-contain">
+                <div class="space-y-4 py-2 text-center">
+                    <p>skylish H-line solid color</p>
+                    <a href="#" class=" text-white px-4 py-2  bg-blue-700 ">shop Now</a>
+                </div>
+            </div>
+            <div class="flex-shrink-0 space-y-8 bg-gray-100 px-3">
+                <h1 class="mt-10 text-3xl text-center">OUTERWEAR</h1>
+                <img src="https://www.uoozee.com/cdn/shop/files/e645cd864a1d7f22e472ba4bf75b81ee.png?v=1749697645&width=407"
+                    alt="image" class="h-[330px] w-[270px] object-contain">
+                <div class="space-y-4 py-2 text-center">
+                    <p>skylish H-line solid color</p>
+                    <a href="#" class=" text-white px-4 py-2 bg-blue-700">shop Now</a>
+                </div>
+            </div>
+            <div class="flex-shrink-0 space-y-8 bg-gray-100 px-3">
+                <h1 class="mt-10 text-3xl text-center">JUMPSUITS</h1>
+                <img src="https://www.uoozee.com/cdn/shop/files/bd105796c8344f73a4645ee9c4cd8707.png?v=1749697645&width=407"
+                    alt="image" class="h-[330px] w-[270px] object-contain">
+                <div class="space-y-4 py-2 text-center">
+                    <p>skylish H-line solid color</p>
+                    <a href="#" class=" text-white px-4 py-2  bg-blue-700">shop Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class=" flex justify-center items-center space-x-4  text-3xl text-black mt-20 px-2 gap-4 my-2">
+            <h2>SHOP YOUR VIBE</h2>
+        </div>
+        <div class="flex justify-center">
+            <p class="flex justify-center items-center  text-black  px-10 py-2 mt-5 ">
+                Step into your style, who are you right now?
+            </p>
+        </div>
+
+        <div
+            class="flex flex-col justify-center items-start space-y-10 px-2 py-2 my-10 md:flex-row md:space-x-10 md:space-y-0">
+            <div class="flex-col justify-center items-start space-y-6 px-4 py-2">
+
+                <div class="w-[20em] h-[150px] py-5 mt-12">
+                    <p class="text-sm italic py-3">EASY GLOW</p>
+                    <h1 class="text-3xl font-bold  italic ">
+                        “MY STYLE CARRIES THE WARMTH OF MOMENTS
+                        WELL-LIVED, INVITING CONNECTION WITH EVERY STEP.”
+                    </h1>
+                </div>
+                <div class="  w-[28em] h-[80px] py-6 mt-50">
+                    <P>
+                        or when you want to feel light, happy,
+                        and effortlessly radiant — soft tees,
+                        breezy skirts, and creamy
+                        blouses that shine like your best day.
+                        Perfect for social brunches or casual outings.
+
+                    </P>
+                </div>
+                <div class="w-[20em] h-[80px] py-6">
+                    <a href="#" class=" bg-pink-200 text-black px-6 py-2 ">shop Now</a>
+                </div>
+            </div>
+
+            <div>
+                <img src="https://www.uoozee.com/cdn/shop/files/50f69717b37d66fdd5ca9addd3760ea8.jpg?v=1749453237&width=910"
+                    alt="image" class="w-[45em] h-[40em] object-cover px-12 py-11">
+            </div>
+        </div>
+        <div>
+            <div class="relative h-[700px] bg-cover bg-center flex items-center justify-center"
+                style="background-image: url('https://i.pinimg.com/736x/5c/c6/88/5cc6880013605fa7afc8094e0b5e49e6.jpg');">
+
+
+                <h1
+                    class="absolute top-1/2 left-0 text-5xl md:text-8xl font-bold text-white whitespace-nowrap animate-moveText z-0">
+                    Special Autumn / Winter Collection Special Autumn / Winter Collection
+                </h1>
+
+
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/3 -translate-y-1/3 z-10">
+                    <img src="https://i.pinimg.com/736x/65/07/ea/6507eadf7c7f6e24d96d357b375a4f9e.jpg"
+                        alt="Overlay product" class="w-[15em] h-auto object-contain">
+                </div>
+
+
+                <div class="absolute bottom-28 left-10  text-white px-4 py-4  z-20">
+                    <p>
+                        Or when you want to feel light, happy,
+                        and effortlessly radiant.
+                    </p>
+                </div>
+
+                <div class="absolute bottom-10 left-10 z-20">
+                    <a href="#" class="bg-pink-200 text-black px-6 py-2 rounded shadow hover:bg-pink-300 transition">
+                        Shop Now
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-16 px-4">
+            <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-black">
+                100+ NEW ARRIVALS THIS WEEK
+            </h1>
+            <div class="mt-4">
+                <ul class="flex flex-wrap justify-center gap-3 text-sm sm:text-base md:text-lg">
+                    <li><a class="hover:underline" href="#">NEW IN</a></li>
+                    <li><a class="hover:underline" href="#">NEW DRESSES</a></li>
+                    <li><a class="hover:underline" href="#">NEW TOPS</a></li>
+                    <li><a class="hover:underline" href="#">NEW BOTTOMS</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <div class="flex w-full p-20">
+                <div class="relative h-[32em] w-[40em] bg-cover bg-center flex items-start justify-start p-8 text-white"
+                    style="background-image: url('https://i.pinimg.com/736x/8e/d5/e2/8ed5e27d2e6b577e6999961e1e916c1a.jpg');">
+
+                    <div class="absolute top-70 left- space-y-3 p-4 ">
+                        <h1 class="text-3xl">MADE FOR THE SEASON</h1>
+                        <p>Advertise a promotion or a sale</p>
+                        <p class="bg-pink-300 text-center inline-block px-4 py-2 pointer">shop now</p>
+                    </div>
+                </div>
+
+                <div class="flex scroll-hide overflow-x-scroll space-x-4 mb-10 px-2">
+                    <div class="flex-shrink-0 ">
+                        <img src="https://www.uoozee.com/cdn/shop/files/6a89f2ec-8bbf-4bad-84ac-1d41d174f22f.jpg?v=1757904774&width=960"
+                            alt="image" class="h-[320px] w-[200px]">
+                        <p>Skylish H-line solid color</p>
+                        <p>Color skirts bottoms</p>
+                        <p>
+                            <span class="line-through text-black">$29.99 USD</span>
+                            <span class="text-red-400 ml-2">$25.99 USD</span>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <img src="https://www.uoozee.com/cdn/shop/files/b34dc6cb-8946-4a05-807a-6ee64e210d25.jpg?v=1757902462&width=1280"
+                            alt="image" class="h-[320px] w-[200px]">
+                        <p>skylish H-line solid color</p>
+                        <p>color skirts bottoms</p>
+                        <p>
+                            <span class="line-through text-black">$29.99 USD</span>
+                            <span class="text-red-400 ml-2">$25.99 USD</span>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0 ">
+                        <img src="https://www.uoozee.com/cdn/shop/files/419af28d-e45c-40fc-bdf9-5ab87e249667.jpg?v=1757902418&width=375"
+                            alt="image" class="h-[320px] w-[200px]">
+                        <p>skylish H-line solid color</p>
+                        <p>color skirts bottoms</p>
+                        <p>
+                            <span class="line-through text-black">$29.99 USD</span>
+                            <span class="text-red-400 ml-2">$25.99 USD</span>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <img src="https://www.uoozee.com/cdn/shop/files/3b2cc78a-632a-4973-8be4-f1b0c3e1e8ec.jpg?v=1757902370&width=375"
+                            alt="image" class="h-[320px] w-[200px]">
+                        <p>skylish H-line solid color</p>
+                        <p>color skirts bottoms</p>
+                        <p>
+                            <span class="line-through text-black">$29.99 USD</span>
+                            <span class="text-red-400 ml-2">$25.99 USD</span>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <img src="https://www.uoozee.com/cdn/shop/files/114bfe356a22456a89d23e280b975242.jpg?v=1748314610&width=1280"
+                            alt="image" class="h-[320px] w-[200px]">
+                        <p>skylish H-line solid color</p>
+                        <p>color skirts bottoms</p>
+                        <p>
+                            <span class="line-through text-black">$29.99 USD</span>
+                            <span class="text-red-400 ml-2">$25.99 USD</span>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <img src="https://www.uoozee.com/cdn/shop/files/92701189-aa28-440b-8d2a-1b798bc19e2f.jpg?v=1753758585&width=1280"
+                            alt="image" class="h-[320px] w-[200px]">
+                        <p>skylish H-line solid color</p>
+                        <p>color skirts bottoms</p>
+                        <p>
+                            <span class="line-through text-black">$29.99 USD</span>
+                            <span class="text-red-400 ml-2">$25.99 USD</span>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0 ">
+                        <img src="https://www.uoozee.com/cdn/shop/files/d4e3a433-1fc0-4d67-8fc7-95a04236c91e.jpg?v=1750042293&width=960"
+                            alt="image" class="h-[320px] w-[200px]">
+                        <p>skylish H-line solid color</p>
+                        <p>color skirts bottoms</p>
+                        <p>
+                            <span class="line-through text-black">$29.99 USD</span>
+                            <span class="text-red-400 ml-2">$25.99 USD</span>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <img src="https://www.uoozee.com/cdn/shop/files/92701189-aa28-440b-8d2a-1b798bc19e2f.jpg?v=1753758585&width=1280"
+                            alt="image" class="h-[320px] w-[200px]">
+                        <p>skylish H-line solid color</p>
+                        <p>color skirts bottoms</p>
+                        <p>
+                            <span class="line-through text-black">$29.99 USD</span>
+                            <span class="text-red-400 ml-2">$25.99 USD</span>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0 ">
+                        <img src="https://i.pinimg.com/736x/24/cd/f1/24cdf1421cd67a0c7cfd4c23be24f8ac.jpg" alt="image"
+                            class="h-[320px] w-[200px]">
+                        <p>skylish H-line solid color</p>
+                        <p>color skirts bottoms</p>
+                        <p>
+                            <span class="line-through text-black">$29.99 USD</span>
+                            <span class="text-red-400 ml-2">$25.99 USD</span>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <img src="https://i.pinimg.com/736x/a0/43/4a/a0434a4d07b6e33b66b1c87ec5472cf3.jpg" alt="image"
+                            class="h-[320px] w-[200px]">
+                        <p>skylish H-line solid color</p>
+                        <p>color skirts bottoms</p>
+                        <p>
+                            <span class="line-through text-black">$29.99 USD</span>
+                            <span class="text-red-400 ml-2">$25.99 USD</span>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0 ">
+                        <img src="https://i.pinimg.com/736x/71/41/57/714157c20fe770bb958ced4d48f649ba.jpg" alt="image"
+                            class="h-[320px] w-[200px]">
+                        <p>skylish H-line solid color</p>
+                        <p>color skirts bottoms</p>
+                        <p>
+                            <span class="line-through text-black">$29.99 USD</span>
+                            <span class="text-red-400 ml-2">$25.99 USD</span>
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <img src="https://www.uoozee.com/cdn/shop/files/92701189-aa28-440b-8d2a-1b798bc19e2f.jpg?v=1753758585&width=1280"
+                            alt="image" class="h-[320px] w-[200px]">
+                        <p>skylish H-line solid color</p>
+                        <p>color skirts bottoms</p>
+                        <p>
+                            <span class="line-through text-black">$29.99 USD</span>
+                            <span class="text-red-400 ml-2">$25.99 USD</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-center ">
+                <div class="w-[20em] h-[80px] ">
+                    <a href="#" class="flex justify-center items-center bg-gray-800 text-white 
+              w-[200px] px-10 py-2 mt-5 rounded">
+                        Shop Now
+                    </a>
+                </div>
+            </div>
+
+
+            <div class=" flex justify-center space-x-4 text-3xl text-black mt-20 px-2 gap-4 my-2">
+                <h1>CLEARENCE:UP TO 50% OFF</h1>
+            </div>
+            <div class="flex justify-center">
+                <ul class="flex gap-3 ">
+                    <li><a class="hover:underline" href="#">CLEARENCE</a></li>
+                    <li><a class="hover:underline" href="#">DRESSES-SALE</a></li>
+                    <li><a class="hover:underline" href="#">TOPS-SALE</a></li>
+                    <li><a class="hover:underline" href="#">BOTTOMS-SALE</a></li>
+                </ul>
+            </div>
+
+            <div class="flex scroll-hide overflow-x-scroll space-x-4 mb-10 px-6">
+                <div class="flex-shrink-0 ">
+                    <img src="https://www.uoozee.com/cdn/shop/files/6a89f2ec-8bbf-4bad-84ac-1d41d174f22f.jpg?v=1757904774&width=960"
+                        alt="image" class="h-[320px] w-[200px]">
+                    <p>Skylish H-line solid color</p>
+                    <p>Color skirts bottoms</p>
+                    <p>
+                        <span class="line-through text-black">$29.99 USD</span>
+                        <span class="text-red-400 ml-2">$25.99 USD</span>
+                    </p>
+                </div>
+                <div class="flex-shrink-0">
+                    <img src="https://www.uoozee.com/cdn/shop/files/b34dc6cb-8946-4a05-807a-6ee64e210d25.jpg?v=1757902462&width=1280"
+                        alt="image" class="h-[320px] w-[200px]">
+                    <p>skylish H-line solid color</p>
+                    <p>color skirts bottoms</p>
+                    <p>
+                        <span class="line-through text-black">$29.99 USD</span>
+                        <span class="text-red-400 ml-2">$25.99 USD</span>
+                    </p>
+
+                </div>
+                <div class="flex-shrink-0 ">
+                    <img src="https://www.uoozee.com/cdn/shop/files/419af28d-e45c-40fc-bdf9-5ab87e249667.jpg?v=1757902418&width=375"
+                        alt="image" class="h-[320px] w-[200px]">
+                    <p>skylish H-line solid color</p>
+                    <p>color skirts bottoms</p>
+                    <p>
+                        <span class="line-through text-black">$29.99 USD</span>
+                        <span class="text-red-400 ml-2">$25.99 USD</span>
+                    </p>
+
+                </div>
+                <div class="flex-shrink-0">
+                    <img src="https://www.uoozee.com/cdn/shop/files/3b2cc78a-632a-4973-8be4-f1b0c3e1e8ec.jpg?v=1757902370&width=375"
+                        alt="image" class="h-[320px] w-[200px]">
+                    <p>skylish H-line solid color</p>
+                    <p>color skirts bottoms</p>
+                    <p>
+                        <span class="line-through text-black">$29.99 USD</span>
+                        <span class="text-red-400 ml-2">$25.99 USD</span>
+                    </p>
+
+
+                </div>
+                <div class="flex-shrink-0 ">
+                    <img src="https://www.uoozee.com/cdn/shop/files/560f93e2-bf87-4196-a87e-8add71c169a2.jpg?v=1757901824&width=1280"
+                        alt="image" class="h-[320px] w-[200px]">
+                    <p>skylish H-line solid color</p>
+                    <p>color skirts bottoms</p>
+                    <p>
+                        <span class="line-through text-black">$29.99 USD</span>
+                        <span class="text-red-400 ml-2">$25.99 USD</span>
+                    </p>
+
+                </div>
+                <div class="flex-shrink-0">
+                    <img src="https://www.uoozee.com/cdn/shop/files/92701189-aa28-440b-8d2a-1b798bc19e2f.jpg?v=1753758585&width=1280"
+                        alt="image" class="h-[320px] w-[200px]">
+                    <p>skylish H-line solid color</p>
+                    <p>color skirts bottoms</p>
+                    <p>
+                        <span class="line-through text-black">$29.99 USD</span>
+                        <span class="text-red-400 ml-2">$25.99 USD</span>
+                    </p>
+                </div>
+                <div class="flex-shrink-0 ">
+                    <img src="https://www.uoozee.com/cdn/shop/files/d4e3a433-1fc0-4d67-8fc7-95a04236c91e.jpg?v=1750042293&width=960"
+                        alt="image" class="h-[320px] w-[200px]">
+                    <p>skylish H-line solid color</p>
+                    <p>color skirts bottoms</p>
+                    <p>
+                        <span class="line-through text-black">$29.99 USD</span>
+                        <span class="text-red-400 ml-2">$25.99 USD</span>
+                    </p>
+
+                </div>
+                <div class="flex-shrink-0">
+                    <img src="https://i.pinimg.com/736x/71/41/57/714157c20fe770bb958ced4d48f649ba.jpg" alt="image"
+                        class="h-[320px] w-[200px]">
+                    <p>skylish H-line solid color</p>
+                    <p>color skirts bottoms</p>
+                    <p>
+                        <span class="line-through text-black">$29.99 USD</span>
+                        <span class="text-red-400 ml-2">$25.99 USD</span>
+                    </p>
+
+
+                </div>
+                <div class="flex-shrink-0 ">
+                    <img src="https://i.pinimg.com/1200x/a2/6b/3d/a26b3daf6f7c97a09f234bf5d12d0d5c.jpg" alt="image"
+                        class="h-[320px] w-[200px]">
+                    <p>skylish H-line solid color</p>
+                    <p>color skirts bottoms</p>
+                    <p>
+                        <span class="line-through text-black">$29.99 USD</span>
+                        <span class="text-red-400 ml-2">$25.99 USD</span>
+                    </p>
+
+                </div>
+                <div class="flex-shrink-0">
+                    <img src="https://i.pinimg.com/736x/96/de/d9/96ded9a34460c71a5937c671c3be034c.jpg" alt="image"
+                        class="h-[320px] w-[200px]">
+                    <p>skylish H-line solid color</p>
+                    <p>color skirts bottoms</p>
+                    <p>
+                        <span class="line-through text-black">$29.99 USD</span>
+                        <span class="text-red-400 ml-2">$25.99 USD</span>
+                    </p>
+
+
+                </div>
+                <div class="flex-shrink-0 ">
+                    <img src="https://i.pinimg.com/736x/49/c7/a1/49c7a1e3346563922263f5083bb2902b.jpg" alt="image"
+                        class="h-[320px] w-[200px]">
+                    <p>skylish H-line solid color</p>
+                    <p>color skirts bottoms</p>
+                    <p>
+                        <span class="line-through text-black">$29.99 USD</span>
+                        <span class="text-red-400 ml-2">$25.99 USD</span>
+                    </p>
+
+                </div>
+                <div class="flex-shrink-0">
+                    <img src="https://i.pinimg.com/1200x/88/cc/b2/88ccb249d2325a0bfe1c6efc1c3d3c1b.jpg" alt="image"
+                        class="h-[320px] w-[200px]">
+                    <p>skylish H-line solid color</p>
+                    <p>color skirts bottoms</p>
+                    <p>
+                        <span class="line-through text-black">$29.99 USD</span>
+                        <span class="text-red-400 ml-2">$25.99 USD</span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="flex items-center justify-center ">
+            <div class="w-[30em] h-[80px] ">
+                <a href="#" class="flex justify-center items-center bg-pink-300 text-white 
+              w-[250px] px-2 py-2 mt-5 rounded gap-4">
+                    SHOP CLEARENCE SALE
+                </a>
+            </div>
+        </div>
+        <div class=" flex justify-center space-x-4 text-3xl text-black mt-20 px-2 gap-4 my-2">
+            <h1>CLEARENCE:UP TO 50% OFF</h1>
+        </div>
+        <div class=" flex justify-center space-x-4  text-black  px-2 gap-4 my-2">
+            <p>what can i do</p>
+        </div>
+
+        <div class=" flex justify-center space-x-4 text-3xl text-black mt-20 px-2 gap-4 my-2">
+            <h1>CLEARENCE:UP TO 50% OFF</h1>
+        </div>
+        <div class=" flex justify-center space-x-4  text-black  px-2 gap-4 my-2">
+            <p>what can i do</p>
+        </div>
+
+        <div class="flex flex-row scroll-hide space-x-4 px-6 overflow-x-scroll mb-30  mt-20">
+            <div class="w-[300px] border-b border-l border-r border-gray-500 flex-shrink-0">
+                <div>
+                    <img src="https://www.uoozee.com/cdn/shop/files/imadriana05_484534980_1771037736788979_7066962792813662894_n.jpg?v=1750051863&width=1440"
+                        alt="image" class=" h-[300px] w-[30em] object-cover">
+                </div>
+                <div class="flex space-x-1 text-xs mt-3 px-10">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="px-4 py-3">
+                    <p>Love this blouse from UOOZEE! Great for both formal settings and casual wear.</p>
+                </div>
+                <div class="flex space-x-3 items-center px-4">
+                    <img src="https://www.uoozee.com/cdn/shop/files/imadriana05_484534980_1771037736788979_7066962792813662894_n.jpg?v=1750051863&width=1440"
+                        alt="image" class="h-[30px] w-[30px] rounded-full object-cover">
+                    <p class="text-sm font-medium">Adriana Florentina </p>
+                </div>
+            </div>
+
+
+            <div class="w-[300px] border-b border-l border-r border-gray-500 flex-shrink-0 ">
+                <div>
+                    <img src="https://www.uoozee.com/cdn/shop/files/WechatIMG694.png?v=1750057119&width=540" alt="image"
+                        class=" h-[300px] w-full object-cover">
+                </div>
+                <div class="flex space-x-1 text-xs mt-3 px-10">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="px-4 py-3">
+                    <p>Love this blouse from UOOZEE! Great for both formal settings and casual wear.</p>
+                </div>
+                <div class="flex space-x-3 items-center px-4">
+                    <img src="https://www.uoozee.com/cdn/shop/files/ana.koshe_471713923_1661692621439981_6432309205873317703_n.jpg?v=1750054378&width=1440"
+                        alt="image" class="h-[30px] w-[30px] rounded-full object-cover">
+                    <p class="text-sm font-medium"> Marcu Monica</p>
+                </div>
+            </div>
+
+            <div class="w-[300px] border-b border-l border-r border-gray-500 flex-shrink-0">
+                <div>
+                    <img src="https://i.pinimg.com/1200x/80/b7/bc/80b7bce60847d4d99e49aaf3906fc6fb.jpg" alt="image"
+                        class=" h-[300px] w-full object-cover">
+                </div>
+                <div class="flex space-x-1 text-xs mt-3 px-10">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="px-4 py-3">
+                    <p>Love this blouse from UOOZEE! Great for both formal settings and casual wear.</p>
+                </div>
+                <div class="flex space-x-3 items-center px-4">
+                    <img src="https://i.pinimg.com/736x/e4/8d/7a/e48d7a75efb1893d936c89b5a7d5cf66.jpg" alt="image"
+                        class="h-[30px] w-[30px] rounded-full object-cover">
+                    <p class="text-sm font-medium">Cuba finest</p>
+                </div>
+            </div>
+
+            <div class="w-[300px] border-b border-l border-r border-gray-500 flex-shrink-0">
+                <div>
+                    <img src="https://i.pinimg.com/736x/0b/43/2b/0b432be708555d021b2eeec2bfefce77.jpg" alt="image"
+                        class=" h-[300px] w-full object-cover">
+                </div>
+                <div class="flex space-x-1 text-xs mt-3 px-10">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="px-4 py-3">
+                    <p>Love this blouse from UOOZEE! Great for both formal settings and casual wear.</p>
+                </div>
+                <div class="flex space-x-3 items-center px-4">
+                    <img src="https://i.pinimg.com/736x/7d/31/53/7d3153e85f7e579a43604db164df6072.jpg" alt="image"
+                        class="h-[30px] w-[30px] rounded-full object-cover">
+                    <p class="text-sm font-medium">Adrie Flora </p>
+                </div>
+            </div>
+
+            <div class="w-[300px] border-b border-l border-r border-gray-500 flex-shrink-0 ">
+                <div>
+                    <img src="https://i.pinimg.com/736x/1a/65/bd/1a65bdb62a77b91a6f8ae7bfed29b0e9.jpg" alt="image"
+                        class=" h-[300px] w-full object-cover">
+                </div>
+                <div class="flex space-x-1 text-xs mt-3 px-10">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="px-4 py-3">
+                    <p>Love this blouse from UOOZEE! Great for both formal settings and casual wear.</p>
+                </div>
+                <div class="flex space-x-3 items-center px-4">
+                    <img src="https://i.pinimg.com/736x/83/8d/f2/838df26377c28c99bd5746d4fd5422d7.jpg" alt="image"
+                        class="h-[30px] w-[30px] rounded-full object-cover">
+                    <p class="text-sm font-medium">Cynthia Maira</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="relative mt-10">
+            <img src="https://i.pinimg.com/736x/cc/62/96/cc629678080741e131baa90249c7e9cc.jpg" alt="Our Story Banner"
+                class="w-full h-[20em] md:h-[30em] object-cover mt-10 rounded-lg">
+
+            <div
+                class="absolute inset-0 flex flex-col items-center justify-center text-black text-center px-4 space-y-3 md:space-y-4">
+                <h1 class="text-base md:text-lg tracking-wide">OUR STORY</h1>
+                <p class="text-2xl md:text-4xl font-bold leading-tight">WE’RE UOOZEE – FOR YOU,</p>
+                <p class="text-2xl md:text-4xl font-bold leading-tight">DREAMERS.</p>
+                <p class="text-sm md:text-lg max-w-2xl">Creative. Passionate. Fun. We drop 200+ styles weekly because
+                    you inspire us to reach new heights.</p>
+                <a href="#" class="bg-pink-200 px-4 py-2 rounded hover:bg-pink-300 transition text-sm md:text-base">
+                    Shop Now
+                </a>
+            </div>
+        </div>
+
+        <div
+            class="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 lg:gap-32 mt-20 px-6 text-center">
+            <div class="space-y-2 max-w-xs">
+                <i class="fa-solid fa-wallet text-4xl md:text-5xl text-gray-700"></i>
+                <p class="text-base md:text-xl font-semibold">FREE SHIPPING</p>
+                <p class="text-sm md:text-base text-gray-600">Shop your favorite styles with ease—no added costs at
+                    checkout.</p>
+            </div>
+
+            <div class="space-y-2 max-w-xs">
+                <i class="fa-solid fa-gem text-4xl md:text-5xl text-gray-700"></i>
+                <p class="text-base md:text-xl font-semibold">AFFORDABLE LUXURY</p>
+                <p class="text-sm md:text-base text-gray-600">Experience the elegance of high-quality fashion without
+                    the high price tag.</p>
+            </div>
+
+            <div class="space-y-2 max-w-xs">
+                <i class="fa-solid fa-rotate-left text-4xl md:text-5xl text-gray-700"></i>
+                <p class="text-base md:text-xl font-semibold">EASY RETURNS</p>
+                <p class="text-sm md:text-base text-gray-600">We want you to love what you wear, and your satisfaction
+                    is our priority.</p>
+            </div>
+        </div>
+
+    </main>
+    <footer class="bg-gray-100 py-10 px-6 mt-20">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center md:text-left">
+
+            <div>
+                <p class="text-xl font-bold">#UOOZEE</p>
+                <p class="text-gray-600">Tag us & Get featured using #uoozee</p>
+                <ul class="flex justify-center md:justify-start mt-4 space-x-4">
+                    <li><a href="#"><i class="fa-brands fa-facebook text-2xl"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter text-2xl"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram text-2xl"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-pinterest text-2xl"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube text-2xl"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-snapchat text-2xl"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-tiktok text-2xl"></i></a></li>
+                </ul>
+            </div>
+
+            <div>
+                <p class="text-xl font-bold mb-3">COMPANY</p>
+                <ul class="space-y-1 text-gray-700">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Customer Reviews</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <p class="text-xl font-bold mb-3">CUSTOMER SERVICES</p>
+                <ul class="space-y-1 text-gray-700">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns & Exchange</a></li>
+                    <li><a href="#">Care Guide</a></li>
+                    <li><a href="#">Shoes Size Chart</a></li>
+                    <li><a href="#">How To Order</a></li>
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Track Your Order</a></li>
+                    <li><a href="#">Maintenance Suggestion</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <p class="text-xl font-bold mb-3">SIGN UP FOR OUR NEWSLETTER</p>
+                <p class="text-gray-600 mb-4">Receive 10% off your first order!</p>
+                <form class="flex flex-col sm:flex-row items-center sm:items-stretch">
+                    <input type="email" placeholder="Email"
+                        class="w-full px-4 py-2 border border-gray-400 rounded-md sm:rounded-l-md focus:outline-none" />
+                    <button type="submit"
+                        class="mt-3 sm:mt-0 sm:ml-2 px-4 py-2 bg-black text-white rounded-md hover:bg-gray-800">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap justify-center md:justify-end gap-4 mt-10">
+            <img src="https://i.pinimg.com/1200x/ff/0e/14/ff0e14bfc28ebbfe3e67c19a8b86fa48.jpg" alt=""
+                class="h-6 w-8 object-cover">
+            <img src="https://i.pinimg.com/1200x/3c/83/9c/3c839c72dac5bfe0dca769abb1ae6020.jpg" alt=""
+                class="h-6 w-8 object-cover">
+            <img src="https://i.pinimg.com/736x/35/e9/35/35e93547884d68f90f7cd2e32d70478f.jpg" alt="image"
+                class="h-6 w-8 object-cover">
+            <img src="https://i.pinimg.com/1200x/60/71/77/607177d37a04572cde96b6d696dc364d.jpg" alt=""
+                class="h-6 w-8 object-cover">
+            <img src="https://i.pinimg.com/736x/de/72/b5/de72b5cd21b9c827639853f666b51b50.jpg" alt=""
+                class="h-6 w-8 object-cover">
+        </div>
+        <div class="mt-12 text-center space-y-3">
+            <img src="https://www.uoozee.com/cdn/shop/files/logo-beige_18660fd0-b62f-461b-88ef-1b1d04094b3a.png?v=1744403079&width=2616"
+                alt="" class="mx-auto w-32 sm:w-40" />
+            <p class="text-sm text-gray-700">© 2025 Uoozee Official, All rights reserved.</p>
+        </div>
+
+        <div class="fixed bottom-0 left-0 w-full bg-black py-2 flex justify-center z-50">
+            <h2 class="text-sm font-bold text-white flex items-center gap-2 cursor-pointer" id="rewardToggle">
+                UOOZEE OFFICIAL REWARDS
+                <i class="fa-solid fa-angle-up"></i>
+            </h2>
+            <div id="rewardContent"
+                class="absolute bottom-[3em] left-0 w-full hidden bg-gray-100 text-center shadow-lg py-6 space-y-6">
+                <p>Earn 10 points for every $1 you spend</p>
+                <div class="border w-[18em] mx-auto px-8 py-2">
+                    <p class="font-semibold text-left">Join now</p>
+                    <p class="flex justify-between text-sm">
+                        Earn 200 points
+                        <a href="#bestseller"><i
+                                class="fa-solid fa-arrow-right px-2 hover:text-black transition"></i></a>
+                    </p>
+                </div>
+                <div class="flex justify-center gap-2 text-sm">
+                    <p>Already have an account?</p>
+                    <a href="#" class="text-blue-400">Log in</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./index.js"></script>
+    <script>
+        AOS.init({
+            duration: 600,
+            offset: 200,
+            easing: "ease-in-out",
+            delay: 100,
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+
+@keyframes marquee {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 25s linear infinite;
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+.animate-moveText {
+  display: inline-block;
+  animation: marquee 25s linear infinite;
+}
+/* body{
+  scrollbar-width: none;
+} */
+
+.scroll-hide {
+  overflow: auto;          /* still scrollable */
+  scrollbar-width: none;   /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+
+.indicator {
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+
